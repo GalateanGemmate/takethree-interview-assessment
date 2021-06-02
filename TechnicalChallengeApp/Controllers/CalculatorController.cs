@@ -16,7 +16,8 @@ namespace TechnicalChallengeApp.Controllers
         private readonly ICalculationManagement _calculationManagement;
         private readonly ISessionManagement _sessionManagement;
 
-        public CalculatorController(ICalculationManagement calculationManagement,
+        public CalculatorController(
+            ICalculationManagement calculationManagement,
             ISessionManagement sessionManagement)
         {
             _calculationManagement = calculationManagement;
