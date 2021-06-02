@@ -41,7 +41,7 @@ namespace TechnicalChallengeApp.Controllers
         /// The calculator interface
         /// </summary>
         /// <param name="id">The user's session identifier</param>
-        /// <returns>The calculator interface</returns>
+        /// <returns>A view of the user's session, if any</returns>
         public IActionResult Calculator(Guid? id)
         {
             if (id == null)
