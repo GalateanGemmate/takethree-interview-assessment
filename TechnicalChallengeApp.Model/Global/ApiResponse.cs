@@ -19,12 +19,12 @@
     /// <summary>
     /// Global shared general response model
     /// </summary>
-    /// <typeparam name="tt">The type of data we are returning in the response</typeparam>
-    public class ApiResponse<tt> : ApiResponse
+    /// <typeparam name="TT">The type of data we are returning in the response</typeparam>
+    public class ApiResponse<TT> : ApiResponse
     {
         /// <summary>
         /// The data being returned in the response
         /// </summary>
-        public tt Data { get; set; }
+        public TT Data { get; set; }
     }
 }
